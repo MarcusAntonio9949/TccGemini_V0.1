@@ -1,0 +1,39 @@
+{
+  "name": "ifbot002",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node ./scripts/loadDb.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "^2.0.28",
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@google/genai": "^1.20.0",
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/community": "^0.3.50",
+    "@langchain/core": "^0.3.68",
+    "ai": "^5.0.46",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.3.30",
+    "next": "^15.5.3",
+    "openai": "^4.62.1",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.17.1",
+    "react": "^19.1.0",
+    "react-dom": "19.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "typescript": "^5"
+  }
+}
